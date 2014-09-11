@@ -14,9 +14,8 @@ class stackdriver_nodejs(object):
 
 		self.id = self.get_instance_id()
 
-		self.key = 'XA18Y3WL9W7G0P7JJC7FSLWRR33SI0IF'
+        self.key = 'Stackdriver key'
 
-		#print self.stackdriver_output()
 		self.send_metric(self.stackdriver_output(), self.key)
 
 	def get_nodejs_data(self):
